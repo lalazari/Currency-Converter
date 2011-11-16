@@ -1,0 +1,3 @@
+The Source folder contains the source code of the servlets,html files,xml file and a subfolder with all the images which the html file needs!
+The CurrencyConverter contains the whole app compiled
+So download the folder, paste at ...\apache-tomcat-x.x.xx\webapps subfolder, start tomcat and press http://localhost:8080/Currency-Converter/Currency-form.html at your browser!
