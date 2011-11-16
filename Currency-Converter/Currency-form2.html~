@@ -1,0 +1,66 @@
+<html>
+<head>
+<style type="text/css">
+body
+{
+background-image:url('curr.jpg');
+background-repeat:no-repeat;
+background-position:50% 50%;
+}
+</style>
+<head>
+<body>
+
+<h1 style="position:fixed; top:0%; left:40%;">Some usefull info</h1>
+
+<br><b>Info:</b></br>
+This is a simple  currency converter app
+<br>where you can convert any amount of any money
+into another money.</br>
+<br><b>Functionality:</b></br>
+<b>*</b>Choose any money from "From currency" field
+<br><b>*</b>Choose any money from "To currency" field<br>
+<b>*</b>Enter an amount at "Amount" field
+<br><b>*</b>Hit <img type="image" src="convert.png" height="30" width="110" border="0"/> to convert</br> 
+<br><b>Swap Currencies Button:<img type="image" src="swap.png" height="30" width="110" border="0"/></b></br>
+Press it if you want to exchange the
+values of "From currency" and "To Currency"<br></br>
+<b>Entry form:</b>
+<br><b>*</b>As an amount please give an integer or a decimal
+number</br>
+<b>*</b>If you don't give a number you will take a
+<br>---->>Bad number format Please give a number<br/>
+<b>*</b>If you give a negative number you will take
+<br>Please give a non-Negative number
+there is no meaning to tell someone that
+The (-X)(from currency)  is-->>> "-Y(to currency) "</br> 
+<br><b>Get the source:</b><br>
+<b>*</b>Click at the <img type="image" src="source.gif" height="30" width="110" border="0"/> button to get the source code of the 
+app in .zip format
+<br><b>Click The <img type="image" src="info.jpg" height="30" width="50" border="0"/> to see this Useful info page<b></p>
+<br><b>Mouse over the <img type="image" src="info.jpg" height="30" width="50" border="0"/> to see a quick info popup window<b></p>
+<p><b>*</b>Click to see this Useful info page</p>
+<p><b>*</b>Mouse over to see a quick info popup window</p>
+<b>
+<br></br>
+<br>Some extra informations:</br>
+<p>This is a dynamic web app!</p>
+<p>*The main use of this currency converter(which is to convert currencies) is implemented through a servlet class (CurrencySelect.class).</p>
+<p>*The Swap Currencies button<img type="image" src="swap.png" height="30" width="110" border="0"/> is implemented through a javascript function swap(a,b) where a is the value of "From Currency" field and b is the value of "To Currency field".</p>
+<p>*The <img type="image" src="source.gif" height="30" width="110" border="0"/> is implemented by another servlet class (DownloadCode.class) which class works through a "response.getOutputStream()"</p>
+<p>*The <img type="image" src="info.jpg" height="30" width="50" border="0"/> has 2 options:</p>
+<p>**Click option is implemented by a ServletContextListener through 3 classes:</p> 
+<p><i>1)MyServletContextListener which is the Listener class.</i></p> 
+<p><i>2)ReObj which is an attribute class</i></p>
+<p><i>3)ListenServlet which is the servlet</i></p>
+<p>**onMouseover option which is implemented through a css class (.borde) and a javascrip function showborder(id) where the id is defined into a info tag as the class css class has info.borde.</p>
+
+<p>
+<a href="Currency-form.html">Go back</a> 
+</p>
+
+
+
+
+</head>
+</html>
